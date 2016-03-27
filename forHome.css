@@ -1,0 +1,148 @@
+*{
+    font-family: 'ヒラギノ角ゴシック ProN', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+/* NHKトップへのリンクを削除 */
+.link--online-top{
+    display: none;
+}
+/* ヘッダ上 */
+.header-top .inner{
+    padding: 0;
+}
+/* ヘッダの検索・文字サイズ */
+.header-top nav{
+    display: none;
+}
+/* NHK NEWSロゴ */
+.header-top .header-logo{
+    padding-top: 10px;
+}
+
+/* ヘッダ下の目次を削除 */
+.header-bottom{
+    display: none;
+}
+/* ページ上部の変なタグみたいなのを削除 */
+.module--hot-trends{
+    display: none;
+}
+/* スペシャルコンテンツ、特集、サイド、動画ニュース、
+クローズアップ、ピックアップ、ニュース番組の見どころ除去 */
+#side, .module--program-info, .module--news-easy,
+ .module--special, .module--news-feature,
+ .module--news-movie, .module--news-closeup,
+ .module--news-pickup{
+    display: none;
+}
+/* フッター除去 */
+footer{
+    display: none;
+}
+
+#content #content-inner{
+    width: 960px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#content #main{
+    width: 100%;
+    float: none;
+}
+
+.module--just-in {
+	padding-bottom: 20px;
+}
+
+.module{
+    padding-bottom: 2px;
+}
+
+/* 主要ニュース */
+.content--header{
+    width: 45%;
+}
+.module--content .content--thumb,.module--content .content--summary{
+    display: block;
+}
+.module--news-main .content--thumb{
+    width: 100%;
+    padding-left: 5px;
+    float: left;
+}
+.module--news-main .module--content .content--header{
+    float:left;
+    border-bottom: none;
+}
+.module--news-main .module--content .content--items{
+    padding-left: 15px;
+    width: 55%;
+    float: left;
+}
+.content--header-title .i-items--group .i-video, .content--items .i-items--group .i-video{display:none}
+.grid--col li{ width: 31%;}
+.grid--col li dl{ padding: 0;}
+.grid--col li dt{
+    display: block;
+    width: 100%;
+}
+.grid--col li dd{ display: block;}
+.module--news-main .module--content .content--list li{
+    border-bottom: none;
+}
+
+/* ジャンル別新着ニュース */
+.module--header>h2{
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+    padding: 0;
+    height: 2px;
+}
+dt .i-category{
+    display: none;
+}
+.module--nav.nav--tab{ margin-bottom: 10px;}
+.featured-panel--list li{ padding: 7px 0;}
+.featured-panel--list li dt{ padding-bottom: 0;}
+.featured-panel .featured-panel--header{
+    width: 25%;
+	float: left;
+    margin-right: 15px;
+}
+.featured-panel .featured-panel--header figure{
+	min-height: 0;
+    margin-bottom: 3px;
+}
+.featured-panel--summary .content--header-category{
+    display: none;
+}
+.featured-panel--summary .content--header-title{
+    padding-bottom: 0;
+}
+.featured-panel .featured-panel--items{
+    width: 73%;
+    padding-right: 0;
+}
+.content--related{
+	display: none;
+}
+
+/* 地域のニュース */
+.module--nav.nav--local{
+    margin-bottom: 0;
+    padding-top: 2px;
+}
+.grid--list li{
+    padding: 7px 0;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+.grid--list li:first-child{
+    padding: 7px 0;
+}
+
+#content .module img, #content .module_aside img{
+    max-width: 100%;
+}

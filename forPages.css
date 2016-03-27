@@ -1,0 +1,43 @@
+
+/* 非表示 */
+.module--news-related,
+.module--news-keyword,
+.module--news-link{
+    display: none;
+}
+
+/* ヘッダの下 つめる */
+.module--detail .content--detail-title{
+    padding-bottom: 5px;
+}
+
+/* 映像のフロート解除 */
+.module--detail .content--thumb{
+    float: none;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.module--detail .content--summary, .module--detail .content--summary-more, .module--detail .content--body .body-text{
+    text-indent: 1em;
+    font-size: 14pt;
+    letter-spacing: normal;
+    padding-bottom: 1em;
+}
+
+.content--detail-main {
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.module, .module--share{
+    padding-bottom: 0;
+}
+
+/* br無効 */
+.content--summary-more br,.module--detail .content--body .body-text br{
+    display: none;
+}
+
+.module--detail .content--title{
+    padding-top: 4px;
+}
