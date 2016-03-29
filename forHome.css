@@ -60,7 +60,7 @@ footer{
 
 /* 主要ニュース */
 .content--header{
-    width: 45%;
+    width: 40%;
 }
 .module--content .content--thumb,.module--content .content--summary{
     display: block;
@@ -76,17 +76,29 @@ footer{
 }
 .module--news-main .module--content .content--items{
     padding-left: 15px;
-    width: 55%;
+    width: 60%;
     float: left;
 }
+.module--news-main .content--summary .content--header-title{
+    padding-bottom: 0;
+}
 .content--header-title .i-items--group .i-video, .content--items .i-items--group .i-video{display:none}
-.grid--col li{ width: 31%;}
+.grid--col li{
+    width: 33%;
+    float: none;
+	display:inline-block;
+    vertical-align:top;
+    padding-left: 5px;
+}
 .grid--col li dl{ padding: 0;}
 .grid--col li dt{
     display: block;
     width: 100%;
+    padding-right: 5%;
+    padding-left:  5%;
 }
 .grid--col li dd{ display: block;}
+.grid--col li:nth-child(2n) dl{ padding: 0;}
 .module--news-main .module--content .content--list li{
     border-bottom: none;
 }
