@@ -3,7 +3,7 @@
 }
 
 /* NHKトップへのリンクを削除 */
-.link--online-top{
+.link--online-top, #nhkheader{
     display: none;
 }
 /* ヘッダ上 */
@@ -36,7 +36,7 @@
     display: none;
 }
 /* フッター除去 */
-footer{
+footer, #nhkfooter{
     display: none;
 }
 
@@ -48,6 +48,10 @@ footer{
 #content #main{
     width: 100%;
     float: none;
+}
+
+.module--content .content--header{
+    width: 40%;
 }
 
 .module--just-in {
@@ -83,7 +87,7 @@ footer{
 .module--news-main .content--summary .content--header-title{
     padding-bottom: 0;
 }
-.content--header-title .i-items--group .i-video, .content--items .i-items--group .i-video{display:none}
+.i-video, .content--items .i-items--group .i-video{display:none}
 .grid--col li{
     width: 33%;
     float: none;
@@ -116,6 +120,11 @@ dt .i-category{
     display: none;
 }
 .module--nav.nav--tab{ margin-bottom: 10px;}
+.module--nav.nav--tab li{
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+
 .featured-panel--list li{ padding: 7px 0;}
 .featured-panel--list li dt{ padding-bottom: 0;}
 .featured-panel .featured-panel--header{
